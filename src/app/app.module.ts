@@ -6,7 +6,8 @@ import { HeaderComponent } from './globals/header/header.component';
 import { MenuComponent } from './globals/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CanastaComponent } from './globals/canasta/canasta.component';
-import {appRouter} from './routing'; //se indica la ruta de la constante con los condicionales
+import {appRouter} from './routing';
+import { CategoriaComponent } from './pages/categoria/categoria.component'; //se indica la ruta de la constante con los condicionales
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import {appRouter} from './routing'; //se indica la ruta de la constante con los
     HeaderComponent,
     MenuComponent,
     HomeComponent,
-    CanastaComponent
+    CanastaComponent,
+    CategoriaComponent
   ],
   imports: [
     BrowserModule,
