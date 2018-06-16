@@ -8,9 +8,7 @@ import { Producto } from '../../../../models/producto';
 })
 export class SliderProductoItemComponent implements OnInit {
  @Input() producto:Producto;
-
   constructor() { }
-
   ngOnInit() {
   }
 
