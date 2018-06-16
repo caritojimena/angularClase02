@@ -7,7 +7,9 @@ import { MenuComponent } from './globals/menu/menu.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CanastaComponent } from './globals/canasta/canasta.component';
 import {appRouter} from './routing';
-import { CategoriaComponent } from './pages/categoria/categoria.component'; //se indica la ruta de la constante con los condicionales
+import { CategoriaComponent } from './pages/categoria/categoria.component';
+import { SliderProductoComponent } from './globals/slider/slider-producto/slider-producto.component';
+import { SliderProductoItemComponent } from './globals/slider/slider-producto/slider-producto-item/slider-producto-item.component'; //se indica la ruta de la constante con los condicionales
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { CategoriaComponent } from './pages/categoria/categoria.component'; //se
     MenuComponent,
     HomeComponent,
     CanastaComponent,
-    CategoriaComponent
+    CategoriaComponent,
+    SliderProductoComponent,
+    SliderProductoItemComponent
   ],
   imports: [
     BrowserModule,
